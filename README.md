@@ -10,7 +10,7 @@ This repository contains the setup and provisioning files required to develop an
 
 ## Clone the repository
 ```
-git clone git@github.com:Maikon/elixir_setup.git
+git clone git@github.com:deploying-elixir/elixir_setup.git
 ```
 
 ## Change directory into the root
@@ -45,6 +45,18 @@ vagrant up
 vagrant ssh
 ```
 
+## Check your installation
+
+Verify the installation by running `elixir -v` from the virtual machine command prompt. Details similar to below should be returned.
+
+```
+Erlang/OTP 20 [erts-9.0] [source] [64-bit] [smp:1:1] [ds:1:1:10] [async-threads:10] [hipe] [kernel-poll:false]
+
+Elixir 1.4.5
+```
+
+## Exit the virtual machine
+When you have finished, exit the virtual machine by typing `cmd D` from the prompt.
 
 ## Commonly used vagrant commands
 
